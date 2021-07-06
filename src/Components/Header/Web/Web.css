@@ -22,3 +22,15 @@
 .web-option:last-child {
     margin-right: 0px;
 }
+.web-option::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: aqua;
+    transition: width .5s;
+}
+.web-option:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
