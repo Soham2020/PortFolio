@@ -1,0 +1,39 @@
+.hero {
+    font-size: 24px;
+}
+.abt {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic {
+    height: 400px;
+    border-radius: 50px;
+}
+.abt-info {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.para {
+    color: rgb(204, 214, 246);
+}
+.clg-name {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 720px) {
+    .abt {        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .pic {
+        height: 350px;
+    }
+    .abt-info {
+        margin-top: 0;
+        font-size: 17px;
+    }
+}
