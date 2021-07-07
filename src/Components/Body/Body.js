@@ -12,7 +12,7 @@ export default function Body () {
             <section id="bio">
                 <Bio />
             </section>
-            <section id="about">
+            <section id="About">
                 <About />
             </section>
             <section id="Experience">
