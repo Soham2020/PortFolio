@@ -1,0 +1,44 @@
+.work-card {
+    padding: 8px;
+    width: 45%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.work-logo {
+    height: 150px;
+}
+.work-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.company-name {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+.work-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-width: 80%;
+}
+.work-desc p {
+    color: rgb(204, 214, 246);
+}
+@media only screen and (max-width: 720px) {
+    .work-card {
+      width: 100%;
+    }
+    .work-logo {
+        height: 80px;
+    }
+    .company-name {
+        font-size: 16px;
+    }
+}
