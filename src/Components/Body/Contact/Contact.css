@@ -1,0 +1,61 @@
+.contact {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(136, 146, 176);
+  }
+.contact-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+}
+.contact-left {
+    max-width: 60%;
+    font-size: 17px;
+    text-align: center;
+}
+.contact-left p{
+    color: rgb(204, 214, 246);
+}
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download a {
+    background-color: aqua;
+    padding: 8px 16px;
+    font-size: 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(71, 73, 78);
+}
+.download i {
+    background-color: aqua;
+    color: rgb(71, 73, 78);
+}
+@media (max-width: 720px) {
+    .contact {
+        padding-top: 10px;
+    }
+    .contact-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left {
+        max-width: 100%;
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .download a{
+        font-size: 16px;
+    }
+}
