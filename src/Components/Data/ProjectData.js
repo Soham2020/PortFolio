@@ -6,7 +6,6 @@ export const ProjectData = [
         tags: ["ReactJs", "NodeJs", "MongoDB", "ExpressJs", "Material-UI"],
         github: "https://github.com/Soham2020/Keep-Notes",
         image: "https://image.freepik.com/free-vector/people-making-list-illustration_53876-43029.jpg",
-        // https://cdn.dribbble.com/users/79571/screenshots/10753505/media/115e61882c77c6b2e2dcd5d3d8a519cb.png?compress=1&resize=400x300
     },
     {
         id: 2,

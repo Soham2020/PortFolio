@@ -10,7 +10,7 @@ export default function About () {
     }, [])
     return (
         <>
-            <div data-aos="fade-up" className="abt">
+            <div data-aos="fade-left" className="abt">
                 <div className="abt-photo">
                         <img src={AboutPic} className="pic" alt="bio-picture" />
                 </div>
@@ -22,7 +22,7 @@ export default function About () {
                         Bachelors in Computer Science and Engineering (2019-2023). <br /> <br />
                         I can work efficiently in <span className="clg-name">C++</span>, <span className="clg-name">C</span>, <span className="clg-name">Reactjs</span>  
                         {' '}and quite comformtable in Python.<br/>
-                        I have also done many projects on <span className="clg-name">MERN-Stack</span> and React-Native.
+                        I have also done many projects on <span className="clg-name">MERN-Stack</span> and <span className="clg-name">React-Native</span>.
                     </p>
                 </div>
             </div>

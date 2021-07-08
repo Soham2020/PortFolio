@@ -21,7 +21,7 @@
     font-size: 17px;
     text-align: center;
 }
-.contact-left p{
+.para {
     color: rgb(204, 214, 246);
 }
 .download {
@@ -33,13 +33,18 @@
     background-color: aqua;
     padding: 8px 16px;
     font-size: 24px;
-    border-radius: 4px;
+    border-radius: 10px;
     text-decoration: none;
     color: rgb(71, 73, 78);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
 }
 .download i {
     background-color: aqua;
     color: rgb(71, 73, 78);
+}
+.download-icon {
+    margin-right: 4px;
 }
 @media (max-width: 720px) {
     .contact {

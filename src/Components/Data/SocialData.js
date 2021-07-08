@@ -2,21 +2,21 @@ export const SocialData = [
     {
       platform: "Instagram",
       icon: require("../../Assets/Icons/instagram.png").default,
-      link: "www.instagram.com",
+      link: "https://instagram.com",
     },
     {
       platform: "Github",
       icon: require("../../Assets/Icons/github.png").default,
-      link: "www.github.com/Soham2020",
+      link: "https://github.com/Soham2020",
     },
     {
       platform: "Linkedin",
       icon: require("../../Assets/Icons/linkedin.png").default,
-      link: "www.linkedin.com",
+      link: "https://linkedin.com/in/soham-das-2a0467190",
     },
     {
       platform: "Facebook",
       icon: require("../../Assets/Icons/facebook.png").default,
-      link: "www.facebook.com",
+      link: "https://facebook.com",
     },
   ];

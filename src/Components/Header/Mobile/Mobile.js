@@ -14,13 +14,14 @@ export default function Mobile ({ isOpen, setIsOpen }) {
                 </a>
             </div>
             <div className="mobile-option">
-                <a href="#Project">
-                <i class="fi-rr-browser option-icon"></i> Project
+                <a href="#Experience">
+                    <i class="fi-rr-briefcase option-icon"></i> Experience
                 </a>
+                
             </div>
             <div className="mobile-option">
-                <a href="#Experience">
-                <i class="fi-rr-briefcase option-icon"></i> Experience
+                <a href="#Project">
+                    <i class="fi-rr-browser option-icon"></i> Project
                 </a>
             </div>
             <div className="mobile-option">
