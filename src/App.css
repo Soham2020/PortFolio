@@ -3,3 +3,15 @@
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   color: white;
 }
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+@media (max-width: 720px) {
+  .loader {
+    height: 80vh;
+  }
+}
